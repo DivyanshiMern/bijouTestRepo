@@ -1,5 +1,5 @@
 import React, { lazy } from "react";
-import Loadable from "../layouts/loadable/Loadable.jsx";
+import Loadable from "../layouts/Loadable/Loadable.jsx";
 const FullLayout = Loadable(lazy(() => import("../layouts/FullLayout")));
 const HomePage = Loadable(lazy(() => import("../views/homepage/homepage")));
 const CategoryCollection = Loadable(
