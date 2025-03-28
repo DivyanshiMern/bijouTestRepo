@@ -92,10 +92,10 @@ const router = [
         path: "/productList",
         element: <ProductList />,
       },
-      {
-        path: "/bookAppointment",
-        element: <BookAnAppointment />,
-      },
+      // {
+      //   path: "/bookAppointment",
+      //   element: <BookAnAppointment />,
+      // },
       {
         path: "/refundPolicy",
         element: <RefundPolicy />,
